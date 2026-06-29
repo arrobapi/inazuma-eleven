@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inazuma Eleven – Enciclopedia de Personajes</title>
-  <meta name="description" content="Enciclopedia fan de personajes de Inazuma Eleven. Datos extraídos de la Inazuma Eleven Wiki. 100% estático para GitHub Pages.">
+  <meta name="description" content="Enciclopedia fan de personajes de Inazuma Eleven. Fichas de Axel Blaze, Mark Evans, Jude Sharp y todo el Raimon. Supertécnicas, estadísticas y equipos.">
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,14 +14,13 @@
   <header class="hero">
     <div class="hero-bg"></div>
     <div class="container hero-inner">
-      <div class="hero-badge">GitHub Pages Ready • SIN PHP • JSON puro</div>
       <h1>INAZUMA<br><span>ELEVEN</span></h1>
-      <p class="hero-sub">Enciclopedia de personajes – datos extraídos de la <a href="https://inazuma.fandom.com/es/wiki/Axel_Blaze" target="_blank" rel="noopener">Inazuma Eleven Wiki</a></p>
+      <p class="hero-sub">Enciclopedia de personajes del Instituto Raimon y la selección Inazuma Japón.<br>Descubre supertécnicas, estadísticas y la historia de tus jugadores favoritos.</p>
       <div class="hero-stats" id="hero-stats">
         <div><strong id="stat-count">6</strong><span>personajes</span></div>
-        <div><strong>32</strong><span>técnicas</span></div>
+        <div><strong>80+</strong><span>técnicas</span></div>
         <div><strong>7</strong><span>equipos</span></div>
-        <div><strong>JSON</strong><span>estático</span></div>
+        <div><strong>3</strong><span>sagas</span></div>
       </div>
     </div>
   </header>
@@ -64,21 +63,27 @@
 
     <section id="grid" class="grid"></section>
 
-    <section class="json-teaser">
-      <h3>Estructura JSON – extraída de la Wiki</h3>
-      <p>Ejemplo real de <strong>Axel Blaze</strong> (inazuma.fandom.com/es/wiki/Axel_Blaze). Así puedes añadir más personajes sin backend.</p>
-      <pre id="json-preview"><code>loading characters.json…</code></pre>
-      <div class="json-actions">
-        <a class="btn" href="data/characters.json" download>Descargar characters.json</a>
-        <button class="btn-ghost" id="btn-copy">Copiar JSON</button>
+    <section class="featured-axel">
+      <div class="axel-box">
+        <img src="images/axel.jpg" alt="Axel Blaze">
+        <div>
+          <h3>Axel Blaze – El delantero de fuego</h3>
+          <p>“Bajo su fría apariencia, en su interior arde una intensa pasión por el fútbol.”<br>
+          Extraído de la Inazuma Eleven Wiki.<br>
+          Conoce su Tornado de Fuego, Tormenta de Fuego, Fuego Total y todas sus evoluciones a lo largo de 3 temporadas, GO, Chrono Stones y Galaxy.</p>
+          <div class="axel-tags">
+            <span>#Delantero</span><span>#Fuego</span><span>#Raimon</span><span>#InazumaJapón</span><span>#Kirkwood</span>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
     <div class="container">
-      <p><strong>Inazuma Eleven Fan Database</strong> – Proyecto estático HTML/CSS/JS • Compatible con GitHub Pages</p>
-      <p class="muted">Datos: Inazuma Eleven Wiki (Fandom) – https://inazuma.fandom.com/es/wiki/Axel_Blaze • Uso fan / educativo.</p>
+      <p><strong>Inazuma Eleven – Enciclopedia de Personajes</strong></p>
+      <p class="muted">Proyecto fan sin ánimo de lucro. Inazuma Eleven es propiedad de Level-5.<br>
+      Información basada en la <a href="https://inazuma.fandom.com/es/" target="_blank" rel="noopener">Inazuma Eleven Wiki</a>. • © 2026 Fan Database</p>
     </div>
   </footer>
 

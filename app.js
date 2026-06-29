@@ -1,5 +1,4 @@
 // Inazuma Eleven – Enciclopedia Fan
-// 100% estático, para GitHub Pages
 let CHARACTERS = [];
 
 async function load() {
@@ -7,13 +6,12 @@ async function load() {
     const res = await fetch('data/characters.json');
     CHARACTERS = await res.json();
   } catch(e){
-    // fallback por si abres file://
     const res = await fetch('./data/characters.json');
     CHARACTERS = await res.json();
   }
   render();
-  showJsonPreview();
-  document.getElementById('stat-count').textContent = CHARACTERS.length;
+  const sc = document.getElementById('stat-count');
+  if(sc) sc.textContent = CHARACTERS.length;
 }
 
 function match(c, q, pos, elem, equipo) {
@@ -137,13 +135,6 @@ function openModal(id){
   modal.showModal();
 }
 
-function showJsonPreview(){
-  const el = document.getElementById('json-preview');
-  if(!el) return;
-  const axel = CHARACTERS.find(c=>c.id==='axel_blaze') || CHARACTERS[0];
-  el.textContent = JSON.stringify(axel, null, 2);
-}
-
 document.getElementById('q').addEventListener('input', render);
 ['f-posicion','f-elemento','f-equipo'].forEach(id=>{
   document.getElementById(id).addEventListener('change', render);
@@ -161,14 +152,6 @@ document.getElementById('modal').addEventListener('click', (e)=>{
   if(e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom){
     e.currentTarget.close();
   }
-});
-document.getElementById('btn-copy')?.addEventListener('click', async ()=>{
-  const txt = document.getElementById('json-preview').textContent;
-  await navigator.clipboard.writeText(txt);
-  const btn = document.getElementById('btn-copy');
-  const old = btn.textContent;
-  btn.textContent = '¡Copiado!';
-  setTimeout(()=>btn.textContent = old, 1300);
 });
 
 load();
