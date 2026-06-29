@@ -23,7 +23,7 @@
     "descripcion": "Uno de los protagonistas principales de Inazuma Eleven durante la Saga de Mark. Fue el delantero estrella del Instituto Kirkwood, del Instituto Raimon y la selección de Inazuma Japón.",
     "personalidad": "Axel es un chico que oculta bien sus sentimientos y emociones, es una persona cerrada pero junto a su hermana muestra mucho cariño, aprecio y naturalidad. Va de tipo duro y de no importarle nada, su carácter es serio y maduro, es la voz de la razón para el equipo, es inteligente, callado y solo habla para decir algo interesante.",
     "historia_breve": "Era el delantero estrella del Kirkwood, pero se mudó al Raimon tras el accidente de su hermana Julia, provocado por Ray Dark. Prometió no volver a jugar, pero Mark Evans le convence. Marca con su Tornado de Fuego contra la Royal Academy salvando el club.",
-    "imagen": "images/axel.jpg",
+    "imagen": "images/axel.webp",
     "fuente": "https://inazuma.fandom.com/es/wiki/Axel_Blaze",
     "supertécnicas_anime": [
       {"nombre": "Tornado de fuego", "tipo": "Tiro", "elemento": "Fuego"},
