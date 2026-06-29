@@ -164,5 +164,24 @@
       {"nombre": "Rayo cósmico", "tipo": "Tiro"}
     ],
     "tags": ["Delantero", "Alius", "Génesis", "Inazuma Japón"]
+  },
+  {
+    "id": "jose_luis_taboada",
+    "nombre": "Jose Luis Taboada",
+    "nombre_japones": "基山ヒロト (HoShe Louis)",
+    "alias": ["Pepe"],
+    "genero": "Masculino",
+    "posicion": "Delantero",
+    "dorsal": 3.1416,
+    "elemento": "Cerveza",
+    "equipos": ["Instituto Raimon", "Inazuma Japón", "Academia arrobaPi"],
+    "descripcion": "Capitán General de los ejércitos del universo. Luego gran bebedor de cerveza.",
+    "personalidad": "Sereno, misterioso y extremadamente talentoso.",
+    "imagen": "images/pepe.jpg",
+    "supertécnicas_anime": [
+      {"nombre": "Meteorito", "tipo": "Tiro"},
+      {"nombre": "Cerveza Milagrosa", "tipo": "Tiro"},
+    ],
+    "tags": ["Delantero", "Pepe", "General", "Inazuma Japón"]
   }
 ]
