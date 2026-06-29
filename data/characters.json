@@ -180,7 +180,7 @@
     "imagen": "images/pepe.jpg",
     "supertécnicas_anime": [
       {"nombre": "Meteorito", "tipo": "Tiro"},
-      {"nombre": "Cerveza Milagrosa", "tipo": "Tiro"},
+      {"nombre": "Cerveza Milagrosa", "tipo": "Tiro"}
     ],
     "tags": ["Delantero", "Pepe", "General", "Inazuma Japón"]
   }
