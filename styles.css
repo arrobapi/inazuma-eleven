@@ -19,7 +19,7 @@ html,body{margin:0;padding:0;background:radial-gradient(1200px 700px at 80% -10%
 a{color:var(--blue)}
 .container{max-width:1180px;margin:auto;padding:0 24px}
 
-.hero{position:relative;overflow:hidden;padding:58px 0 44px;border-bottom:1px solid var(--border);}
+.hero{position:relative;overflow:hidden;padding:48px 0 44px;border-bottom:1px solid var(--border);}
 .hero-bg{
   position:absolute; inset:0;
   background:
@@ -29,8 +29,17 @@ a{color:var(--blue)}
   pointer-events:none;
 }
 .hero-inner{position:relative}
+.site-logo{
+  display:block;
+  height:auto;
+  max-width:280px;
+  width:100%;
+  margin:0 0 10px -6px;
+  filter: drop-shadow(0 8px 24px rgba(0,0,0,.45));
+  image-rendering:auto;
+}
 .hero-badge{display:inline-block;background:#ffffff14;border:1px solid var(--border);padding:6px 12px;border-radius:999px;font-size:12px;letter-spacing:.4px;color:var(--muted);backdrop-filter:blur(6px)}
-.hero h1{font-family:var(--font-title);font-size:clamp(44px, 8vw, 82px);line-height:.88;margin:18px 0 8px;font-weight:800;letter-spacing:-1.5px;text-shadow:0 6px 30px rgba(0,0,0,.4)}
+.hero h1{font-family:var(--font-title);font-size:clamp(44px, 8vw, 82px);line-height:.88;margin:12px 0 8px;font-weight:800;letter-spacing:-1.5px;text-shadow:0 6px 30px rgba(0,0,0,.4)}
 .hero h1 span{color:var(--orange);background:linear-gradient(90deg,#ff7a2a,#ffd14a);-webkit-background-clip:text;background-clip:text;color:transparent}
 .hero-sub{color:var(--muted);font-size:17px;max-width:620px;margin:6px 0 22px}
 .hero-sub a{color:#ffcf7a;text-decoration:underline;text-underline-offset:3px}
