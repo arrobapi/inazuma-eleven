@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inazuma Eleven – Enciclopedia de Personajes</title>
+  <meta name="description" content="Enciclopedia fan de personajes de Inazuma Eleven. Datos extraídos de la Inazuma Eleven Wiki. 100% estático para GitHub Pages.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-inner">
+      <div class="hero-badge">GitHub Pages Ready • SIN PHP • JSON puro</div>
+      <h1>INAZUMA<br><span>ELEVEN</span></h1>
+      <p class="hero-sub">Enciclopedia de personajes – datos extraídos de la <a href="https://inazuma.fandom.com/es/wiki/Axel_Blaze" target="_blank" rel="noopener">Inazuma Eleven Wiki</a></p>
+      <div class="hero-stats" id="hero-stats">
+        <div><strong id="stat-count">6</strong><span>personajes</span></div>
+        <div><strong>32</strong><span>técnicas</span></div>
+        <div><strong>7</strong><span>equipos</span></div>
+        <div><strong>JSON</strong><span>estático</span></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="toolbar">
+      <div class="search-wrap">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input id="q" type="search" placeholder="Buscar: Axel, Mark, delantero, fuego..." autocomplete="off">
+      </div>
+
+      <div class="filters">
+        <select id="f-posicion">
+          <option value="">Toda posición</option>
+          <option>Delantero</option>
+          <option>Centrocampista</option>
+          <option>Defensa</option>
+          <option>Portero</option>
+        </select>
+        <select id="f-elemento">
+          <option value="">Todo elemento</option>
+          <option>Fuego</option>
+          <option>Aire</option>
+          <option>Bosque</option>
+          <option>Tierra</option>
+          <option>Hielo</option>
+        </select>
+        <select id="f-equipo">
+          <option value="">Todo equipo</option>
+          <option>Instituto Raimon</option>
+          <option>Inazuma Japón</option>
+          <option>Instituto Kirkwood</option>
+          <option>Royal Academy</option>
+          <option>Génesis</option>
+          <option>Instituto Alpino</option>
+        </select>
+        <button id="clear" class="btn-ghost">Limpiar</button>
+      </div>
+    </section>
+
+    <section id="grid" class="grid"></section>
+
+    <section class="json-teaser">
+      <h3>Estructura JSON – extraída de la Wiki</h3>
+      <p>Ejemplo real de <strong>Axel Blaze</strong> (inazuma.fandom.com/es/wiki/Axel_Blaze). Así puedes añadir más personajes sin backend.</p>
+      <pre id="json-preview"><code>loading characters.json…</code></pre>
+      <div class="json-actions">
+        <a class="btn" href="data/characters.json" download>Descargar characters.json</a>
+        <button class="btn-ghost" id="btn-copy">Copiar JSON</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p><strong>Inazuma Eleven Fan Database</strong> – Proyecto estático HTML/CSS/JS • Compatible con GitHub Pages</p>
+      <p class="muted">Datos: Inazuma Eleven Wiki (Fandom) – https://inazuma.fandom.com/es/wiki/Axel_Blaze • Uso fan / educativo.</p>
+    </div>
+  </footer>
+
+  <!-- Modal detalle -->
+  <dialog id="modal">
+    <button class="modal-close" id="modal-close">✕</button>
+    <div id="modal-body"></div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

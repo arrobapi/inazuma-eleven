@@ -1,0 +1,168 @@
+[
+  {
+    "id": "axel_blaze",
+    "nombre": "Axel Blaze",
+    "nombre_japones": "豪炎寺修也 (Gōenji Shūya)",
+    "nombre_ingles": "Shawn? no – Gouenji Shuuya / Axel Blaze",
+    "alias": ["Alex Zabel", "Ishido Shūji", "El punta legendario", "Delantero de fuego"],
+    "genero": "Masculino",
+    "edad": 14,
+    "curso": "Segundo Curso",
+    "posicion": "Delantero",
+    "dorsal": 10,
+    "elemento": "Fuego",
+    "equipos": [
+      "Instituto Kirkwood",
+      "Instituto Raimon",
+      "Inazuma Japón",
+      "Inazuma Japón Legendario",
+      "Earth Eleven",
+      "Colegio Monte Olimpo (entrenador)",
+      "El Dorado Equipo 03 (entrenador)"
+    ],
+    "descripcion": "Uno de los protagonistas principales de Inazuma Eleven durante la Saga de Mark. Fue el delantero estrella del Instituto Kirkwood, del Instituto Raimon y la selección de Inazuma Japón.",
+    "personalidad": "Axel es un chico que oculta bien sus sentimientos y emociones, es una persona cerrada pero junto a su hermana muestra mucho cariño, aprecio y naturalidad. Va de tipo duro y de no importarle nada, su carácter es serio y maduro, es la voz de la razón para el equipo, es inteligente, callado y solo habla para decir algo interesante.",
+    "historia_breve": "Era el delantero estrella del Kirkwood, pero se mudó al Raimon tras el accidente de su hermana Julia, provocado por Ray Dark. Prometió no volver a jugar, pero Mark Evans le convence. Marca con su Tornado de Fuego contra la Royal Academy salvando el club.",
+    "imagen": "images/axel.jpg",
+    "fuente": "https://inazuma.fandom.com/es/wiki/Axel_Blaze",
+    "supertécnicas_anime": [
+      {"nombre": "Tornado de fuego", "tipo": "Tiro", "elemento": "Fuego"},
+      {"nombre": "Tornado dragón", "tipo": "Tiro", "elemento": "Fuego", "compañero": "Kevin"},
+      {"nombre": "Trampolín relámpago", "tipo": "Tiro", "elemento": "Aire", "compañero": "Jack"},
+      {"nombre": "Súper relámpago", "tipo": "Tiro", "compañero": "Mark"},
+      {"nombre": "Pájaro de fuego", "tipo": "Tiro", "elemento": "Fuego", "compañero": "Nathan"},
+      {"nombre": "Supertrampolín relámpago", "tipo": "Tiro", "compañero": "Mark y Jack"},
+      {"nombre": "Ruptura relámpago", "tipo": "Tiro", "compañero": "Mark y Jude"},
+      {"nombre": "Pingüino emperador n.º 2", "tipo": "Tiro", "compañero": "Jude y Erik"},
+      {"nombre": "Tormenta de fuego", "tipo": "Tiro", "elemento": "Fuego"},
+      {"nombre": "Fuego helado", "tipo": "Tiro", "compañero": "Shawn Froste"},
+      {"nombre": "La Tierra", "tipo": "Tiro", "compañero": "Mark, Shawn y todo el Raimon"},
+      {"nombre": "Torbellino de fuego", "tipo": "Tiro", "elemento": "Fuego"},
+      {"nombre": "Tormenta del tigre", "tipo": "Tiro", "compañero": "Austin Hobbes"},
+      {"nombre": "Fuego total", "tipo": "Tiro", "elemento": "Fuego", "compañero": "Xavier y Austin"},
+      {"nombre": "Último recurso", "tipo": "Tiro", "elemento": "Fuego", "nota": "Ares/Orion"}
+    ],
+    "supertécnicas_videojuego": [
+      {"juego": "IE1", "nombre": "Tornado de fuego", "tipo": "Tiro", "elemento": "Fuego"},
+      {"juego": "IE1", "nombre": "Corte flamígero", "tipo": "Regate", "elemento": "Fuego"},
+      {"juego": "IE1", "nombre": "Trampolín relámpago", "tipo": "Tiro", "elemento": "Aire"},
+      {"juego": "IE2", "nombre": "Tormenta de fuego", "tipo": "Tiro", "elemento": "Fuego"},
+      {"juego": "IE3", "nombre": "Torbellino de fuego", "tipo": "Tiro", "elemento": "Fuego"},
+      {"juego": "IE3", "nombre": "Fuego total", "tipo": "Tiro", "elemento": "Fuego"},
+      {"juego": "GO", "nombre": "Tornado de fuego DD", "tipo": "Tiro", "elemento": "Fuego"},
+      {"juego": "Chrono Stones", "nombre": "Triángulo ZZ", "tipo": "Tiro", "elemento": "Fuego"}
+    ],
+    "estadisticas": {
+      "IE1_JP_Lv99": {"PE": 255, "PT": 255, "Tiro": 84, "Físico": 84, "Control": 84, "Defensa": 84, "Rapidez": 84, "Aguante": 84, "Valor": 84},
+      "IE1_EU_Lv99": {"PE": 200, "PT": 176, "Tiro": 79, "Físico": 66, "Control": 76, "Defensa": 64, "Rapidez": 75, "Aguante": 68, "Valor": 60},
+      "IE2_Lv99": {"PE": 133, "PT": 123, "Tiro": 78, "Físico": 66, "Control": 62, "Defensa": 58, "Rapidez": 63, "Aguante": 60, "Valor": 60},
+      "GO_Lv99": {"PE": 159, "PT": 167, "Tiro": 144, "Regate": 95, "Defensa": 107, "Técnica": 114, "Rapidez": 94, "Aguante": 95, "Suerte": 100},
+      "Chrono_Stones_Joven_Lv99": {"PE": 156, "PT": 142, "Tiro": 170, "Regate": 123, "Defensa": 95, "Técnica": 116, "Rapidez": 104, "Aguante": 121}
+    },
+    "tags": ["Principal", "Capitán", "Fuego", "Delantero", "Raimon", "Inazuma Japón", "Kirkwood"]
+  },
+  {
+    "id": "mark_evans",
+    "nombre": "Mark Evans",
+    "nombre_japones": "円堂守 (Endō Mamoru)",
+    "alias": ["Mamoru Endo"],
+    "genero": "Masculino",
+    "posicion": "Portero",
+    "dorsal": 1,
+    "elemento": "Tierra",
+    "equipos": ["Instituto Raimon", "Inazuma Japón", "Earth Eleven"],
+    "descripcion": "Portero y capitán del Instituto Raimon. Protagonista principal de Inazuma Eleven. Su abuelo David Evans fue un portero legendario.",
+    "personalidad": "Optimista, incansable y apasionado por el fútbol. Nunca se rinde.",
+    "imagen": "images/mark.jpg",
+    "supertécnicas_anime": [
+      {"nombre": "Mano celestial", "tipo": "Atajada", "elemento": "Tierra"},
+      {"nombre": "Mano mágica", "tipo": "Atajada"},
+      {"nombre": "Puño de la justicia", "tipo": "Atajada"},
+      {"nombre": "Mano demoníaca", "tipo": "Atajada"},
+      {"nombre": "Mano Omega", "tipo": "Atajada"}
+    ],
+    "estadisticas": {
+      "GO_Lv99": {"PE": 180, "PT": 190, "Atajada": 195, "Defensa": 150}
+    },
+    "tags": ["Principal", "Capitán", "Portero", "Raimon", "Inazuma Japón"]
+  },
+  {
+    "id": "jude_sharp",
+    "nombre": "Jude Sharp",
+    "nombre_japones": "鬼道有人 (Kidō Yūto)",
+    "genero": "Masculino",
+    "posicion": "Centrocampista",
+    "dorsal": 14,
+    "elemento": "Bosque",
+    "equipos": ["Royal Academy", "Instituto Raimon", "Inazuma Japón"],
+    "descripcion": "Genio táctico, ex-capitán de la Royal Academy. Mediocampista cerebral del Raimon.",
+    "personalidad": "Frío, estratégico y perfeccionista. Lleva gafas y una capa roja en sus inicios.",
+    "imagen": "images/jude.jpg",
+    "supertécnicas_anime": [
+      {"nombre": "Pingüino emperador n.º 2", "tipo": "Tiro"},
+      {"nombre": "Zona mortal", "tipo": "Tiro"},
+      {"nombre": "Pingüino emperador n.º 3", "tipo": "Tiro"}
+    ],
+    "tags": ["Centrocampista", "Estratega", "Royal Academy", "Raimon"]
+  },
+  {
+    "id": "nathan_swift",
+    "nombre": "Nathan Swift",
+    "nombre_japones": "風丸一郎太 (Kazemaru Ichirōta)",
+    "genero": "Masculino",
+    "posicion": "Defensa",
+    "dorsal": 2,
+    "elemento": "Aire",
+    "equipos": ["Instituto Raimon", "Inazuma Japón"],
+    "descripcion": "Defensa veloz, ex-atleta de pista. Uno de los primeros miembros del Raimon.",
+    "personalidad": "Tranquilo, leal y rápido pensando.",
+    "imagen": "images/nathan.jpg",
+    "supertécnicas_anime": [
+      {"nombre": "Bananín", "tipo": "Regate", "elemento": "Aire"},
+      {"nombre": "Pájaro de fuego", "tipo": "Tiro", "compañero": "Axel"},
+      {"nombre": "Ciclón", "tipo": "Defensa"}
+    ],
+    "tags": ["Defensa", "Velocidad", "Aire", "Raimon"]
+  },
+  {
+    "id": "shawn_froste",
+    "nombre": "Shawn Froste",
+    "nombre_japones": "吹雪士郎 (Fubuki Shirō)",
+    "genero": "Masculino",
+    "posicion": "Delantero / Defensa",
+    "dorsal": 9,
+    "elemento": "Hielo",
+    "equipos": ["Instituto Alpino", "Instituto Raimon", "Inazuma Japón"],
+    "descripcion": "Delantero prodigio del Alpino. Tiene una doble personalidad hielo/fuego tras un trauma.",
+    "personalidad": "Amable y tímido como Shawn, agresivo como su hermano Aiden.",
+    "imagen": "images/shawn.jpg",
+    "supertécnicas_anime": [
+      {"nombre": "Ventisca eterna", "tipo": "Tiro", "elemento": "Hielo"},
+      {"nombre": "Lobo legendario", "tipo": "Tiro"},
+      {"nombre": "Fuego helado", "tipo": "Tiro", "compañero": "Axel"},
+      {"nombre": "La Tierra", "tipo": "Tiro", "compañero": "Mark, Axel"}
+    ],
+    "tags": ["Delantero", "Hielo", "Alpino", "Raimon", "Dual"]
+  },
+  {
+    "id": "xavier_foster",
+    "nombre": "Xavier Foster",
+    "nombre_japones": "基山ヒロト (Kiyama Hiroto)",
+    "alias": ["Xene", "Gran"],
+    "genero": "Masculino",
+    "posicion": "Delantero",
+    "dorsal": 18,
+    "elemento": "Aire",
+    "equipos": ["Génesis", "Instituto Raimon", "Inazuma Japón"],
+    "descripcion": "Capitán del Génesis, de la Academia Alius. Luego delantero clave de Inazuma Japón.",
+    "personalidad": "Sereno, misterioso y extremadamente talentoso.",
+    "imagen": "images/xavier.jpg",
+    "supertécnicas_anime": [
+      {"nombre": "Meteorito", "tipo": "Tiro"},
+      {"nombre": "Gran explosión", "tipo": "Tiro"},
+      {"nombre": "Fuego total", "tipo": "Tiro", "compañero": "Axel y Austin"},
+      {"nombre": "Rayo cósmico", "tipo": "Tiro"}
+    ],
+    "tags": ["Delantero", "Alius", "Génesis", "Inazuma Japón"]
+  }
+]
