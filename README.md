@@ -2,7 +2,10 @@
 
 Web 100% estática (HTML + CSS + JS) lista para **GitHub Pages**. Sin PHP, sin base de datos.
 
-Datos extraídos de: https://inazuma.fandom.com/es/wiki/Axel_Blaze
+## Fuentes de datos
+Datos extraídos de:
+* https://inazuma.fandom.com/es/wiki/Axel_Blaze (fichas detalladas iniciales)
+* https://github.com/arrobapi/inazuma-eleven-index (importación masiva de 139 jugadores de IE1/IE2/IE3 con estadísticas, sprites y supertécnicas)
 
 ## Estructura
 ```
@@ -58,4 +61,6 @@ Funciona 100% client-side con `fetch('data/characters.json')`.
 Edita `data/characters.json`, copia la estructura de Axel Blaze. 
 Las imágenes van en `/images/` y referéncialas como `"imagen": "images/tu_personaje.jpg"`.
 
-Extraído de la Inazuma Eleven Wiki ES – uso fan/educativo.
+Actualmente la enciclopedia cuenta con **146 personajes** (7 fichas detalladas + 139 importados desde `inazuma-eleven-index`, con sprites propios en `images/players/`).
+
+Extraído de la Inazuma Eleven Wiki ES y del repositorio [inazuma-eleven-index](https://github.com/arrobapi/inazuma-eleven-index) – uso fan/educativo.
